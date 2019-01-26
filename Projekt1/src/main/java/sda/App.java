@@ -1,5 +1,8 @@
 package sda;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -33,8 +36,24 @@ public class App
         usluga.addUser(user1);
         usluga.addUser(user2);
         usluga.addUser(user3);
-        usluga.printALL();
+        //usluga.printALL();
 
         user1.toString();
+
+        Listy lista = new Listy();
+
+        List<User> listaUserow = new ArrayList<>();
+        listaUserow.add(user1);
+        listaUserow.add(user2);
+        listaUserow.add(user3);
+
+        System.out.println(listaUserow);
+
+        UserService usluga2 = new UserService();
+        usluga2.addUserL(user3);
+        usluga2.addUserL(user2);
+        usluga2.addUserL(user1);
+
+        System.out.println(usluga2.getAllUsers());
     }
 }

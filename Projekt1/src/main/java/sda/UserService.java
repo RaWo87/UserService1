@@ -1,9 +1,19 @@
 package sda;
 
+import java.util.ArrayList;
+
 public class UserService {
 
     private User[] uzytkownicy = new User[5];
     private int count = 0;
+    private ArrayList<User> moiUserzy = new ArrayList<>();
+
+    public  void addUserL(User user){
+        moiUserzy.add(user);
+    }
+    public ArrayList<User> getAllUsers(){
+        return moiUserzy;
+    }
 
     public void addUser(User user) {
         uzytkownicy[count++] = user;
