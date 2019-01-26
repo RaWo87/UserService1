@@ -39,7 +39,7 @@ public class App
         //usluga.printALL();
 
         user1.toString();
-
+    //Listy
         Listy lista = new Listy();
 
         List<User> listaUserow = new ArrayList<>();
@@ -55,5 +55,15 @@ public class App
         usluga2.addUserL(user1);
 
         System.out.println(usluga2.getAllUsers());
+
+        //Mapy
+        Mapy mojaMapa = new Mapy();
+        mojaMapa.addWord("piesek","puppy");
+        mojaMapa.addWord("kotek","cat");
+        mojaMapa.addWord("piesek","puppy");
+
+        System.out.println(mojaMapa.dictionary.get("piesek"));
+        System.out.println(mojaMapa.dictionary.get("kotek"));
+
     }
 }
