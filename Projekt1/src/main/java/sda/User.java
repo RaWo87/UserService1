@@ -38,4 +38,13 @@ public class User {
         return haslo;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", login='" + login + '\'' +
+                ", haslo='" + haslo + '\'' +
+                '}';
+    }
 }
