@@ -44,11 +44,10 @@ public class App
         usluga.addToMap(user2);
         usluga.addToMap(user3);
 
-        usluga.removeByName("andzej");
 
+
+        System.out.println(usluga.getAllUsers());
         System.out.println(usluga.getUserByID(1));
-        System.out.println(user1.getAge());
-        //System.out.println(usluga.getOlder());
 
 
 //        usluga.addUser(user1);

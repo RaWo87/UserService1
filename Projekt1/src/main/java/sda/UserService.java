@@ -15,19 +15,30 @@ public class UserService {
 
     private Map<Integer,User> mapaUserow = new HashMap<>();
     private int userIDs = 1;
+    public Map<Integer, User> gerUsetMap(){
+        return mapaUserow;
+    }
+
 
     public void removeByName(String userName) {
-        for (User currentUser : mapaUserow.values()) {
-            if(currentUser.getImie().equals(userName)){
-            mapaUserow.remove(currentUser);
+        List<Integer> ids = new ArrayList<>();
+        for (Integer key : mapaUserow.keySet()){
+            if(mapaUserow.get(key).getImie().equals(userName)
+            || mapaUserow.get(key).getNazwisko().equals(userName)){
+                ids.add(key);
             }
-            if(currentUser.getNazwisko().equals(userName)){
-                mapaUserow.remove(currentUser);
-            }
+        }
 
-
-            }
+        for(int id: ids){
+            mapaUserow.remove(id);
+        }
     }
+
+    public boolean checkPassLeangth(User user){
+
+        return user.getHaslo().length()<3;
+    }
+
 
     public void addToMap(User user) {
         boolean brakduplikatów = true;
@@ -40,7 +51,7 @@ public class UserService {
                     brakduplikatów=false;
                 }
             }
-            if(brakduplikatów == true){
+            if(brakduplikatów == true && checkPassLeangth(user)){
                 mapaUserow.put(this.userIDs, user);
                 userIDs++;
             }
