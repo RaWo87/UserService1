@@ -23,11 +23,12 @@ public class Sety {
 //        System.out.println(kraje.zbiorKrajow);
 
         Countries2 setKrajow = new Countries2();
-        setKrajow.addCountry("polandia","warsza",2);
-        setKrajow.addCountry("niemlandia","berlin",32);
-        setKrajow.addCountry("roslandia","moskwa",2123);
-        setKrajow.addCountry("finlandia","helsinki",9999);
-        setKrajow.addCountry("portugalia","lizbona", 8);
+        Prezydent Duda = new Prezydent("Andzej","Duda");
+        setKrajow.addCountry("polandia","warsza",2,Duda);
+        setKrajow.addCountry("niemlandia","berlin",32,Duda);
+        setKrajow.addCountry("roslandia","moskwa",2123,Duda);
+        setKrajow.addCountry("finlandia","helsinki",9999,Duda);
+        setKrajow.addCountry("portugalia","lizbona", 8,Duda);
 
         System.out.println(setKrajow.getALLCountries());
         System.out.println(setKrajow.getByName("polandia"));

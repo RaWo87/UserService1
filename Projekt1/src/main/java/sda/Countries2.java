@@ -7,8 +7,8 @@ public class Countries2 {
 
     private Set<Country> mojeKraje = new HashSet<>();
 
-    public void addCountry(String name, String Capital, double pop){
-        Country kraj = new Country(name, Capital, pop);
+    public void addCountry(String name, String Capital, double pop,Prezydent glowapanstwa){
+        Country kraj = new Country(name, Capital, pop, glowapanstwa);
         mojeKraje.add(kraj);
     }
 
