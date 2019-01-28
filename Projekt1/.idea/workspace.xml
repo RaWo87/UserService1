@@ -271,6 +271,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548595347435" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -337,6 +338,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Countries2" />
+      <item itemvalue="Application.Listy" />
+      <item itemvalue="Application.Sety" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Sety" />
