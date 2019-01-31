@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbbbc14-d57a-4419-84e7-a627da178d27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Projekt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BindingProp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BindingProportiesXY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MenusDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Proporties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ThemesSwitchingCSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunWithJavaFX/com/company/EditableTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunWithJavaFX/com/company/EditableTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserService1" beforeDir="false" afterPath="$PROJECT_DIR$/../UserService1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zadania1" beforeDir="false" afterPath="$PROJECT_DIR$/../Zadania1" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,31 +26,40 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="60" />
           <entry key="dummy" value="4" />
-          <entry key="java" value="10627" />
+          <entry key="java" value="14735" />
           <entry key="txt" value="22" />
+          <entry key="xsl" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10627" />
+          <entry key="CSS" value="60" />
+          <entry key="JAVA" value="14735" />
           <entry key="PLAIN_TEXT" value="26" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="css" value="1" />
+          <entry key="java" value="33" />
+          <entry key="xsl" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="25" />
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="33" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -48,74 +67,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/ThemesSwitchingCSS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/TreeViewDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state>
+              <caret lean-forward="true" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/TableviewDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Proporties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="37" lean-forward="true" selection-end-line="85" />
+            <state relative-caret-position="170">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BindingProportiesXY.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-end-line="78" />
+              <folding>
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/EditableTable.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BindingProp2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1754">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="221">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ProductDataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-              <folding>
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,6 +126,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XSLT Stylesheet" />
         <option value="Class" />
       </list>
     </option>
@@ -167,12 +168,20 @@
         <option value="$PROJECT_DIR$/src/com/company/ProductDataBase.java" />
         <option value="$PROJECT_DIR$/src/com/company/TableviewDemo.java" />
         <option value="$PROJECT_DIR$/src/com/company/EditableTable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MenusDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CustomStyle11.xsl" />
+        <option value="$PROJECT_DIR$/src/com/company/Theme.css" />
+        <option value="$PROJECT_DIR$/src/com/company/ThemesSwitchingCSS.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Proporties.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BindingProportiesXY.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BindingProp2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="width" value="879" />
+    <option name="width" value="983" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -183,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,11 +216,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548795666127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548942390608" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,9 +233,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EditableTable">
-    <configuration name="CheckBoxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.CheckBoxes" />
+  <component name="RunManager" selected="Application.BindingProp2">
+    <configuration name="BindingProp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BindingProp2" />
       <module name="FunWithJavaFX" />
       <extension name="coverage">
         <pattern>
@@ -238,8 +247,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChoiceBoxesListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ChoiceBoxesListener" />
+    <configuration name="BindingProportiesXY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BindingProportiesXY" />
       <module name="FunWithJavaFX" />
       <extension name="coverage">
         <pattern>
@@ -251,8 +260,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosingWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ClosingWindows" />
+    <configuration name="MenusDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MenusDemo" />
       <module name="FunWithJavaFX" />
       <extension name="coverage">
         <pattern>
@@ -264,8 +273,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditableTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.EditableTable" />
+    <configuration name="Proporties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Proporties" />
       <module name="FunWithJavaFX" />
       <extension name="coverage">
         <pattern>
@@ -277,8 +286,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableviewDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TableviewDemo" />
+    <configuration name="ThemesSwitchingCSS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ThemesSwitchingCSS" />
       <module name="FunWithJavaFX" />
       <extension name="coverage">
         <pattern>
@@ -291,19 +300,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TableviewDemo" />
-      <item itemvalue="Application.ChoiceBoxesListener" />
-      <item itemvalue="Application.EditableTable" />
-      <item itemvalue="Application.CheckBoxes" />
-      <item itemvalue="Application.ClosingWindows" />
+      <item itemvalue="Application.MenusDemo" />
+      <item itemvalue="Application.ThemesSwitchingCSS" />
+      <item itemvalue="Application.Proporties" />
+      <item itemvalue="Application.BindingProportiesXY" />
+      <item itemvalue="Application.BindingProp2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EditableTable" />
-        <item itemvalue="Application.ClosingWindows" />
-        <item itemvalue="Application.CheckBoxes" />
-        <item itemvalue="Application.ChoiceBoxesListener" />
-        <item itemvalue="Application.TableviewDemo" />
+        <item itemvalue="Application.BindingProp2" />
+        <item itemvalue="Application.BindingProportiesXY" />
+        <item itemvalue="Application.Proporties" />
+        <item itemvalue="Application.ThemesSwitchingCSS" />
+        <item itemvalue="Application.MenusDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -321,36 +330,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="879" height="1047" extended-state="0" />
+    <frame x="-10" y="0" width="983" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26071844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2605998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32456142" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33223686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33223686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3234649" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -379,9 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,43 +455,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EmbededLayouts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LogInAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="25" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GridPaneLogIN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="66" lean-forward="true" selection-start-line="13" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -558,14 +533,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/TreeViewDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="850">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TableviewDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="37" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,43 +564,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TableviewDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="37" lean-forward="true" selection-end-line="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EditableTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1754">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MenusDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GridPaneLogIN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CustomStyle11.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThemesSwitchingCSS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LogInAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Proporties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BindingProportiesXY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-end-line="78" />
+          <folding>
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BindingProp2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
           </folding>
         </state>
       </provider>
