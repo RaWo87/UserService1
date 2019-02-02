@@ -1,4 +1,8 @@
 package sda;
 
-public class QueIsFull {
+public class QueIsFull extends Exception{
+
+    QueIsFull(String tekst){
+        super(tekst);
+    }
 }

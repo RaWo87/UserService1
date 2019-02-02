@@ -1,8 +1,8 @@
 package sda;
 
-public class QueIsFull extends Exception{
+public class AgeExcept extends Exception{
 
-    QueIsFull(String komunikat){
+    AgeExcept(String komunikat){
     super(komunikat);
 
 
