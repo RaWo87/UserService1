@@ -111,14 +111,66 @@ public class Algorytmy {
     }
     //###ZAD 10 samogloski i spolgloski
 
-    protected int[]  ConsonantOrVowel(String tekst){
-        int[] resault = new int[2];
+    protected void consonantOrVowel(String tekst) {
+        int ileCon = 0;
+        int ileVow = 0;
         Set<String> con = new HashSet<>();
         Set<String> vow = new HashSet<>();
-       String samo = "aeiouy";
-       String wspol = "bcdghjklmnprstvwxz";
+        Set<String> compare = new HashSet<>();
+        String samo = "a e i o u y";
+        String wspol = "b c d g h j k l m n p r s t v w x z";
+        for (String letter : samo.split(" ")
+        ) {
+            vow.add(letter.trim());
+        }
+        for (String letter : wspol.split(" ")
+        ) {
+            con.add(letter.trim());
+        }
+        for (String letter : tekst.split("")) {
+            compare.add(letter.trim());
+        }
+        for (String literka : compare) {
+            if (con.contains(literka.toLowerCase())) {
+                ileCon++;
+            }
+        }
+        for (String literka : compare) {
+            if (vow.contains(literka.toLowerCase())) {
+                ileVow++;
+            }
+        }
+        System.out.println("wspol: " + ileCon + " samogl: " + ileVow);
+    }
+    //###ZAD11
+    protected String removeWhite(String tekst){
+        return tekst.replaceAll(" ","");
+    }
+    //###ZAD12
+
+    protected String removeAndConnect(String tekst) {
+
+        tekst = tekst.trim();
+        List<String> lista = new ArrayList<>();
+        for (String word: tekst.trim().split(" +")
+             ) {
+            lista.add(word);
+        }
+        String resault="";
+        for (String word: lista
+             ) {
+            word=word.substring(0,1).toUpperCase()+word.substring(1);
+            resault+=word;
+        }
 
 
         return resault;
     }
+
+
+
+
+
+
+
 }
